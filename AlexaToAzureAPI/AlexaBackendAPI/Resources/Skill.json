@@ -1,0 +1,61 @@
+﻿{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "demo barcelona",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "Saludar",
+          "slots": [
+            {
+              "name": "FirstName",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "que salude a {FirstName}",
+            "si puede saludar a {FirstName}",
+            "Puedes saludar a {FirstName}",
+            "Puedes dar la bienvenida a {FirstName}"
+          ]
+        },
+        {
+          "name": "QuienSoy",
+          "slots": [],
+          "samples": [
+            "cuál es mi identidad",
+            "cómo me llamo",
+            "quién soy"
+          ]
+        },
+        {
+          "name": "MisEventos",
+          "slots": [],
+          "samples": [
+            "qué hago mañana",
+            "qué tengo para hoy",
+            "cuál es mi próxima cita",
+            "qué tengo en el calendario",
+            "qué eventos tengo para hoy"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

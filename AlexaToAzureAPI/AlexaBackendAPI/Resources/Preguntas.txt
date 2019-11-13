@@ -1,0 +1,5 @@
+﻿Alexa, pregunta a demo barcelona quien soy
+
+Alexa, dile a demo barcelona que salude a Elena
+
+Alexa, pregunta a demo barcelona qué tengo hoy en el calendario
